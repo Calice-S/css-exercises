@@ -1,0 +1,19 @@
+.class-one,.class-three,.class-two{
+    background-color: #FF8886;
+    font-family: "Verdana", sans-serif;
+}
+
+#ID-one {
+    color: #0000FF;
+    font-size: 36px;
+}
+.class-two{
+    font-size: 24px;
+}
+
+#id-two{
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
