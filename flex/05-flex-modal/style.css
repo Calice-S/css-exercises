@@ -33,6 +33,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  margin: 15px;
 }
 
 .close-button {
@@ -64,3 +66,42 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+.modal{
+  display: flex;
+  flex-direction: column;
+}
+.container1 {
+  display: flex;
+  gap: 20px;
+  margin-left: 70px;
+  margin-top: -50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.close-button{
+  margin-left: 80px;
+  margin-top: -5px;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.text{
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+/* This was very hard for me and my solution is very messy but once I get more practice with CSS , hopefully my code
+will be able to be much cleaner, first in the html I added two container classes separating the header and close button class
+and then the text and other buttons. The entire meat of the code is wrapped in the modal class so I made sure that was flex 
+and the direction was in column instead of the default. Then in the container1 class again display flex, then I tried to get
+close as possible to the desired outcome pic with margin properties. The same goes for container2 the only thing in order to 
+get the continue and cancel button on the next line , I had to wrap it. I peaked at the solution and saw that the font size was different
+and bold for the header , I would of definiety ignore that for some reason in my focus on trying to get the placements right. 
+Lastly, the icon was told to use flex-shrink in the read me so it doesn't get smashed and just added the margin left to get the icon 
+away from the start of the container. Hopefully as I get better I won't have to rely on trial and error with margin and my code will be 
+cleaner like the solution */
