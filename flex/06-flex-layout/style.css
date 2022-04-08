@@ -31,7 +31,10 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-
+body {
+  display: flex;
+  flex-direction: column;
+}
 .header{
   display: flex;
   padding: 20px;
@@ -51,5 +54,11 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  flex:1;
+}
+
+.footer{
+  display: flex;
+  padding: 16px;
+background-color: #eeeeee;
 }
